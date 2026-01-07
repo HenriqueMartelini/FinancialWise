@@ -69,11 +69,19 @@ O Railway fará o deploy automaticamente quando você:
    - `pnpm build` (constrói a aplicação)
    - `pnpm start` (inicia o servidor)
 
-### 6. Configurar Domínio (Opcional)
+### 6. Configurar Domínio (IMPORTANTE - Para acesso fácil!)
+
+O Railway fornece um domínio gratuito automático, mas você pode gerar um mais amigável:
 
 1. No dashboard do serviço, vá em "Settings" → "Domains"
 2. Clique em "Generate Domain" para obter um domínio gratuito
-3. Ou adicione seu domínio customizado
+   - Exemplo: `finwise-production.up.railway.app`
+   - Este domínio é GRATUITO e permanente
+   - Você pode compartilhar com qualquer pessoa
+3. Ou adicione um domínio customizado (ex: `finwise.com.br`)
+   - Você precisa comprar o domínio em um registrador (ex: Registro.br, Namecheap)
+
+**Dica:** O domínio `.up.railway.app` é perfeito para uso pessoal - é fácil de lembrar e compartilhar!
 
 ### 7. Verificar Logs
 
