@@ -47,7 +47,13 @@ pnpm install
 
 ### 3. Configure as variáveis de ambiente
 
-Crie um arquivo `.env` na raiz do projeto:
+Copie o arquivo de exemplo e preencha com seus valores:
+
+```bash
+cp .env.example .env
+```
+
+Edite o arquivo `.env` com suas configurações:
 
 ```env
 # Obrigatórias
@@ -65,9 +71,11 @@ VITE_FRONTEND_FORGE_API_KEY=sua-chave-frontend
 VITE_FRONTEND_FORGE_API_URL=https://forge.butterfly-effect.dev
 ```
 
+**Nota:** Para testes básicos, você pode usar valores placeholder. Algumas funcionalidades podem não funcionar sem as APIs configuradas.
+
 ### 4. Configure o banco de dados
 
-Execute as migrações:
+Certifique-se de que o MySQL está rodando e execute as migrações:
 
 ```bash
 pnpm db:push
